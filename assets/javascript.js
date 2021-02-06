@@ -1,6 +1,6 @@
 var openWeatherApiKey = "355c7e90f9099ddddb7aa231ee5f67bc"
 
-var openWeatherUrl = "https://api.openweathermap.org/data/2.5/weather?q={city}&units=imperial&appid=" + openWeatherApiKey
+var openWeatherUrl = "https://api.openweathermap.org/data/2.5/weather?q=city&units=imperial&appid=" + openWeatherApiKey
 
 //get current weather
 function getCurrentWeather(){
